@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090b10">
+    <meta name="color-scheme" content="dark">
+    <title>AstroClub Scoreboard</title>
+    <link rel="stylesheet" href="scoreboard.css">
+    <script src="scoreboard.js" type="module"></script>
+</head>
+<body>
+    <main class="shell">
+        <header class="topbar">
+            <img src="assets/AstroClub_logo.jpg" alt="AstroClub Logo" class="logo">
+            <div>
+                <p class="eyebrow">Planetenquiz</p>
+                <h1>Leaderboard</h1>
+            </div>
+        </header>
+
+        <section class="board-panel" aria-labelledby="boardTitle">
+            <div class="board-heading">
+                <div>
+                    <p class="eyebrow">Live aus Firebase</p>
+                    <h2 id="boardTitle">Top Scores</h2>
+                </div>
+                <div id="status" class="status" aria-live="polite">Lade ...</div>
+            </div>
+
+            <ol id="scoreList" class="score-list"></ol>
+            <p id="emptyState" class="empty-state" hidden>Noch keine Scores.</p>
+        </section>
+    </main>
+</body>
+</html>
