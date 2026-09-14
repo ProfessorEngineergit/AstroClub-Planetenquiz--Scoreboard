@@ -1,6 +1,33 @@
 # AstroClub Planetenquiz Scoreboard
 
+Live-Leaderboard zum [AstroClub Planetenquiz](https://github.com/ProfessorEngineergit/AstroClub-Planetenquiz-refined).
+Liest die Scores per Firestore-Snapshot und aktualisiert sich ohne Neuladen.
+
 Dieser Ordner ist absichtlich eigenstaendig. Du kannst ihn als Root eines neuen Repos verwenden und separat zu Firebase Hosting deployen.
+
+---
+
+## Ohne Internet?
+
+Dieses Scoreboard braucht zwingend eine Internetverbindung: Es laedt das Firebase-SDK
+von `gstatic.com` und haelt eine offene Firestore-Verbindung. Offline ist es nicht
+lauffaehig, auch nicht als einzelne Datei — Firebase Auth laesst unter `file://` keine
+Anmeldung zu.
+
+Fuer Veranstaltungen ohne Netz gibt es stattdessen die Offline-Version des Quiz. Sie
+ist eine einzelne HTML-Datei mit eigenem lokalem Leaderboard (inklusive CSV-Export)
+und laeuft per Doppelklick auf jedem Windows-Rechner:
+
+<p align="center">
+  <a href="https://github.com/ProfessorEngineergit/AstroClub-Planetenquiz-refined/releases/latest/download/Planetenquiz-Offline.html">
+    <img alt="Offline-Version des Quiz herunterladen" src="https://img.shields.io/badge/Offline--Version_des_Quiz-eine_HTML--Datei_·_~540_KB-5eead4?style=for-the-badge&labelColor=090b10&logo=html5&logoColor=5eead4">
+  </a>
+</p>
+
+Details dazu in der
+[README des Quiz-Repos](https://github.com/ProfessorEngineergit/AstroClub-Planetenquiz-refined#offline-version-herunterladen).
+
+---
 
 ## Firebase eintragen
 
