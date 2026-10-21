@@ -1,6 +1,6 @@
 # AstroClub Planetenquiz Scoreboard
 
-Dieser Ordner ist absichtlich eigenstaendig. Du kannst ihn als Root eines neuen Repos verwenden und separat zu Firebase Hosting deployen.
+Eigenständige Scoreboard-Webseite für das AstroClub-Planetenquiz. Die Ergebnisse werden über Firebase/Firestore zwischen Geräten geteilt. Dieses Repository kann separat zu Firebase Hosting deployt werden.
 
 ## Firebase eintragen
 
@@ -40,3 +40,7 @@ firebase login
 firebase use --add
 firebase deploy
 ```
+
+## Entwicklung und KI-Beteiligung
+
+Kleines, KI-gestützt entwickeltes Lern- oder Experimentierprojekt. Die Historie des Hauptbranches enthält ausdrücklich Claude zugeschriebene Beiträge ([Beispiel](https://github.com/ProfessorEngineergit/AstroClub-Planetenquiz--Scoreboard/commit/fbe87f07384e2adcb09a4912c53771d8eef1615a)). Das belegt KI-Beteiligung an diesen Beiträgen, nicht die Herkunft jeder Zeile oder eine unabhängige Prüfung. Bestehende Autor-, Co-Autoren- und Sitzungsangaben bleiben erhalten.
