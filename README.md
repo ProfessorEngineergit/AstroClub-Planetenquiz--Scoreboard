@@ -41,6 +41,6 @@ firebase use --add
 firebase deploy
 ```
 
-## Entwicklung und KI-Beteiligung
+## KI-Beteiligung
 
-Kleines, KI-gestützt entwickeltes Lern- oder Experimentierprojekt. Die Historie des Hauptbranches enthält ausdrücklich Claude zugeschriebene Beiträge ([Beispiel](https://github.com/ProfessorEngineergit/AstroClub-Planetenquiz--Scoreboard/commit/fbe87f07384e2adcb09a4912c53771d8eef1615a)). Das belegt KI-Beteiligung an diesen Beiträgen, nicht die Herkunft jeder Zeile oder eine unabhängige Prüfung. Bestehende Autor-, Co-Autoren- und Sitzungsangaben bleiben erhalten.
+Einzelne Code-Beiträge sind ausdrücklich KI-Tools zugeschrieben: [generated with Claude Code](https://github.com/ProfessorEngineergit/AstroClub-Planetenquiz--Scoreboard/commit/fbe87f07384e2adcb09a4912c53771d8eef1615a). Das gilt für diese Beiträge, nicht pauschal für alle Dateien.
